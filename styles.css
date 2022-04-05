@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+hr{
+
+margin: 2rem 0rem;
+
+}
+
+:root {
+    --primary-color: #38bdf8;
+    --dark-grey: #64748b;
+    --light-grey: #cbd5e1;
+    --blackish-grey: rgb(46, 47, 52);
+
+
+}
+
+/** spaces **/
+
+.margim-md{
+    margin: 2rem;
+}
+
+
+
+/** Container **/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    /** instead you can use
+    
+    padding: 0rem 1rem;
+
+    The first value goes to Top and Bottom and 
+    the second to Left and Right respectively
+    
+    **/
+}
+
+.container-center {
+    max-width: 600px;
+    padding: 0 4rem;
+    margin: 0;
+
+}
+
+.container-left {
+    
+    margin: left;
+    color: white;
+    padding: 0 4px;
+    margin: 0;
+}
+
+.container-right {
+
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/** Links **/
+
+.link{
+    
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: right;
+    color: white;
+
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** Lists **/
+
+.non-bullet{
+    list-style: none;    
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+
+
+
+/** Navigation **/
+
+.navigation{
+    background-color: var(--blackish-grey);
+    color: white;
+    padding: 1rem 7rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .align-left{
+    text-align: left;
+    text-decoration: none;
+    padding: 0.5rem 1rem
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** Header **/
+
+.hero{
+    padding: 2rem;
+    background-color: var(--blackish-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+   
+}
+
+
+
+.hero .hero-img{
+    margin: auto;
+    display:block;
+    max-width: 350px;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align:center;
+}
+
+.hero .hero-heading .heading-inversion{
+    color: var(--primary-color);
+}
+
+/** Sections **/
+
+.section{
+    padding:2rem;
+    display: grid;
+    grid-template-columns:1fr 0.5fr;
+    
+    padding:0%;
+    padding-bottom: 7rem;;
+    
+}
+
+.background_image{
+    background-image: url("images/bg.jpg");
+    background-size: 1050px 500px;
+    background-position: center center;
+}
+
+.section h3{
+    text-align: left;
+    
+}
+
+
+
+.ow{
+    background-color: var(--light-grey);
+
+}
+
+
+
+.section .heading{
+
+    color: white;
+    text-align:left;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.info_spacer {
+    display: inline-block;
+    height: 1px;
+    width: 100px;
+    background-color: var(--light-grey);
+    margin-bottom: 1px;
+  
+  }
+
+  .list_head{
+    list-style: none;
+   text-align: left;
+   display: inline;
+   padding: 0;
+    margin: 0;
+  }
+
+  .link1{
+    
+    text-decoration: none;
+    padding: 0;
+    text-align: left;
+    color: white;
+
+}
+
+.heading-right{
+
+    color: white;
+    text-align:right;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.section .image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my_info{
+    text-align: left;
+    font-size: 30px;
+    padding-right: 8rem;
+    padding-top: 0.8rem;
+    margin: 0;
+}
+
+.my_info_depth{
+    text-align: left;
+    padding-right: 8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin: 0;
+    
+}
+
+
+.learn_more{
+    text-decoration: none;
+    color: white;
+    padding-top: 0.8rem;
+}
+
+
+/** Footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
+    color:white;
+}
