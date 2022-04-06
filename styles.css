@@ -310,12 +310,50 @@ margin: 2rem 0rem;
 
 
 .container-skill {
-    padding: 0 8rem;
-    padding-bottom: 3rem;
+    padding: 0 8.5rem;
+    padding-bottom: 9rem;
     align-items: center;
     justify-content: center;
     background-color: var(--blackish-light-grey);
     flex-wrap: wrap;
+  }
+
+  .skill-text {
+    position: absolute;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-align: center;
+    top: 100%;
+    /** left: 50%; 
+     transform: translate(-50%, -50%); **/
+    color: white;
+
+  }
+  
+  .skill-text1 {
+    position: absolute;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-align: center;
+    top: 100%;
+    padding-left: 1.5rem;
+    /** left: 50%; 
+     transform: translate(-50%, -50%); **/
+    color: white;
+
+  }
+
+  .skill-text2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-align: center;
+    top: 100%;
+    padding-left: 0.5rem;
+    /** left: 50%; 
+     transform: translate(-50%, -50%); **/
+    color: white;
+
   }
 
 
@@ -343,11 +381,11 @@ margin: 2rem 0rem;
 
   svg circle {
     position: absolute;
-    transform: scale(0.939);
+    transform: scale(0.890);
     transform-origin: center;
     fill: none;
     stroke: rgba(234, 119, 255);
-    stroke-width: 15px;
+    stroke-width: 10px;
     stroke-dasharray: 630px;
     /* stroke-dashoffset: 630px; */
   }
@@ -422,6 +460,7 @@ margin: 2rem 0rem;
 
  
   .bar1 {
+    
     display: inline-block;
     height: 90px;
     width: 90px;
@@ -430,7 +469,7 @@ margin: 2rem 0rem;
     background-image: url("images/pr.png");
     background-size: 99px 99px;
     background-position: center center;
-    overflow: hidden;
+    overflow: visible;
     margin: 50px;
     
   }
@@ -455,7 +494,7 @@ margin: 2rem 0rem;
     background-image: url("images/ps.png ");
     background-size: 99px 99px;
     background-position: center center;
-    overflow: hidden;
+    overflow: visible;
     margin: 50px;
   }
 
@@ -481,7 +520,7 @@ margin: 2rem 0rem;
     background-image: url("images/html5.png ");
     background-size: 99px 99px;
     background-position: center center;
-    overflow: hidden;
+    overflow: visible;
     margin: 50px;
   }
 
@@ -506,7 +545,7 @@ margin: 2rem 0rem;
     background-image: url("images/css.png ");
     background-size: 99px 99px;
     background-position: center center;
-    overflow: hidden;
+    overflow: visible;
     margin: 50px;
   }
 
@@ -530,7 +569,7 @@ margin: 2rem 0rem;
     background-image: url("images/js.png ");
     background-size: 99px 99px;
     background-position: center center;
-    overflow: hidden;
+    overflow: visible;
     margin: 50px;
   }
 
